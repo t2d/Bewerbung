@@ -20,7 +20,7 @@
 \input{../Bsp-Latex/Inhalt-Anschreiben.tex}%<<<<<<<<<<<<<<<<<<<<<<<<<
 \end{document}
 \end{filecontents}
-\immediate\write18{pdflatex  -output-directory=\buildDir\ anschreibenGen.tex}
+\immediate\write18{pdflatex  -output-directory=\buildDir/ anschreibenGen.tex}
 
 %%%%%%%%%% CV %%%%%%%%%% 
 \begin{filecontents}{cvGen.tex}
@@ -35,7 +35,7 @@
 \input{../Bsp-Latex/Inhalt-CV.tex}
 \end{document}
 \end{filecontents}
-\immediate\write18{pdflatex  -output-directory=\buildDir\ cvGen.tex}
+\immediate\write18{pdflatex  -output-directory=\buildDir/ cvGen.tex}
 % Compilieren trotz z.B. marvosym Fehler: '--interaction scrollmode' anfügen
 %
 %
